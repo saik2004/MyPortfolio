@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2a1d728f7f.js" crossorigin="anonymous"></script>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo">⚙️ S<span>AI.</span></h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer!</p>
+            <h1>Hi, I'm <span>Saikumar</span><br>From India</h1>
+        </div>
+    </div>
+</div>
+
+
+<!---footer-->
+<div id="about">
+     <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Rest_ Reflect and Rise Again🕊️(JPG).jpg" width="624px" height="611px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hi, I’m Saikumar. I’m 20 years old, and I’m a student currently working hard to build my skills in web development. Every day, I spend time learning and practicing because I want to grow into a well-rounded and skilled developer.
+                    Web development fascinates me because it combines creativity and technology. I’ve been focusing on mastering the fundamentals like HTML, CSS, and JavaScript. I love how these tools come together to create beautiful and functional websites. It’s amazing to see a project start as an idea and grow into something real that people can interact with.
+                     Lately, I’ve been diving into frameworks like React and Angular, which make building complex websites much easier and more efficient. I’m also exploring back-end technologies like Node.js and working with databases such as MongoDB and MySQL. It’s exciting to learn how the front-end and back-end connect to create complete applications.
+                </p>
+                
+                
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                </div>
+                
+                
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Web development</span><br>Designing Web/app</li>
+                        <li><span>Excel Work Book</span><br>Managing Excel work books</li>
+                    </ul>
+                </div>
+
+                
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Degree</span><br>BE ECE</li>
+                    </ul>
+                </div>
+
+                
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Student</span><br>No Experience</li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </div>
+     </div>
+</div>
+
+<!----service section-->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>"Crafting responsive, user-friendly websites with modern design and innovative solutions."</p>
+                <a href="">Learn More</a>
+            </div>
+            
+
+            <div>
+                <i class="fa-regular fa-file-excel"></i>
+                <h2>Excel</h2>
+                <p>"Managing data, creating reports, and simplifying tasks using Excel."</p>
+                <a href="">Learn More</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!----portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+           
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Web App</h3>
+                    <p>"Crafting responsive, user-friendly websites with modern design and innovative solutions."</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div> 
+                
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Web App</h3>
+                    <p>"Crafting responsive, user-friendly websites with modern design and innovative solutions."</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Web App</h3>
+                    <p>"Crafting responsive, user-friendly websites with modern design and innovative solutions."</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+                
+           
+
+        </div>
+        <a href="" class="btn">See More</a> 
+    </div>
+</div>
+
+<!---contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  saisk04117@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  91+ 8825685758</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="My Resume.pdf" download  class="btn btn2">Dounload Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder=" Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright@ Sai <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    
+<script src="main.js"></script>
+</body>
+</html>
